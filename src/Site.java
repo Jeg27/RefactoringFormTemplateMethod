@@ -1,12 +1,13 @@
 
 
-public class Main {
+public class Site {
 
-    static String getValueForField(String fieldName, String message) {
-        final int indexOfFieldValue = message.indexOf(fieldName) + fieldName.length();
-        final int indexOfEndOfFieldValue = message.indexOf("\"", indexOfFieldValue);
-        return message.substring(indexOfFieldValue, indexOfEndOfFieldValue);
+    protected static final double TAX_RATE = 0.10;
+
+    public Site() {
     }
 
+    public static void main(String[] args) {
 
+    }
 }
