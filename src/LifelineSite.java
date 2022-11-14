@@ -7,7 +7,7 @@ public class LifelineSite extends Site {
 
 
     protected double getTaxAmount(double base) {
-        return base * Site.TAX_RATE;
+        return base * Site.TAX_RATE * 0.2;
     }
 
 
