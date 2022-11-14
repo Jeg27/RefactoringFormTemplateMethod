@@ -1,11 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9e520357-a75a-4b5e-99dc-4312af8bc67f" name="Changes" comment="Starting Point">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/LifelineSite.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LifelineSite.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ResidentialSite.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ResidentialSite.java" afterDir="false" />
-    </list>
+    <list default="true" id="9e520357-a75a-4b5e-99dc-4312af8bc67f" name="Changes" comment="Inline return statement of getBillableAmount() for the variable tax - in both ResidentialSite and LifelineSite" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -70,7 +66,35 @@
       <option name="project" value="LOCAL" />
       <updated>1668458270225</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Extract Method --&gt; getBaseAmount() in both ResidentialSite and LifelineSite">
+      <created>1668460297739</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1668460297739</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Extract Method --&gt; getTaxAmount() in both ResidentialSite and LifelineSite">
+      <created>1668460373652</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1668460373652</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Inline return statement of getBillableAmount() for the variable base - in both ResidentialSite and LifelineSite">
+      <created>1668460474650</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1668460474650</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Inline return statement of getBillableAmount() for the variable tax - in both ResidentialSite and LifelineSite">
+      <created>1668460539846</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1668460539846</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -86,6 +110,10 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Starting Point" />
-    <option name="LAST_COMMIT_MESSAGE" value="Starting Point" />
+    <MESSAGE value="Extract Method --&gt; getBaseAmount() in both ResidentialSite and LifelineSite" />
+    <MESSAGE value="Extract Method --&gt; getTaxAmount() in both ResidentialSite and LifelineSite" />
+    <MESSAGE value="Inline return statement of getBillableAmount() for the variable base - in both ResidentialSite and LifelineSite" />
+    <MESSAGE value="Inline return statement of getBillableAmount() for the variable tax - in both ResidentialSite and LifelineSite" />
+    <option name="LAST_COMMIT_MESSAGE" value="Inline return statement of getBillableAmount() for the variable tax - in both ResidentialSite and LifelineSite" />
   </component>
 </project>

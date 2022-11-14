@@ -10,4 +10,8 @@ public class Site {
     public static void main(String[] args) {
 
     }
+
+    public double getBillableAmount() {
+        return getBaseAmount() + getTaxAmount(getBaseAmount());
+    }
 }
