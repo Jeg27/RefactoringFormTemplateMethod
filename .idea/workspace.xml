@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9e520357-a75a-4b5e-99dc-4312af8bc67f" name="Changes" comment="Inline return statement of getBillableAmount() for the variable tax - in both ResidentialSite and LifelineSite" />
+    <list default="true" id="9e520357-a75a-4b5e-99dc-4312af8bc67f" name="Changes" comment="Pull Method Up - getBillableAmount() to site class.  Deleted from ResidentialSite and LifelineSite">
+      <change beforePath="$PROJECT_DIR$/src/LifelineSite.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LifelineSite.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ResidentialSite.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ResidentialSite.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Site.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Site.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -94,7 +98,14 @@
       <option name="project" value="LOCAL" />
       <updated>1668460539846</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Pull Method Up - getBillableAmount() to site class.  Deleted from ResidentialSite and LifelineSite">
+      <created>1668460718286</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1668460718286</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -114,6 +125,7 @@
     <MESSAGE value="Extract Method --&gt; getTaxAmount() in both ResidentialSite and LifelineSite" />
     <MESSAGE value="Inline return statement of getBillableAmount() for the variable base - in both ResidentialSite and LifelineSite" />
     <MESSAGE value="Inline return statement of getBillableAmount() for the variable tax - in both ResidentialSite and LifelineSite" />
-    <option name="LAST_COMMIT_MESSAGE" value="Inline return statement of getBillableAmount() for the variable tax - in both ResidentialSite and LifelineSite" />
+    <MESSAGE value="Pull Method Up - getBillableAmount() to site class.  Deleted from ResidentialSite and LifelineSite" />
+    <option name="LAST_COMMIT_MESSAGE" value="Pull Method Up - getBillableAmount() to site class.  Deleted from ResidentialSite and LifelineSite" />
   </component>
 </project>
