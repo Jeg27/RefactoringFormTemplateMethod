@@ -1,11 +1,8 @@
 public class ResidentialSite extends Site {
 
-    private int _units;
-    private double _rate;
 
     public ResidentialSite(int _units, double _rate) {
-        this._units = _units;
-        this._rate = _rate;
+        super(_units, _rate);
     }
 
 
